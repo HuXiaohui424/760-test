@@ -14,3 +14,9 @@
   }
 }
 </style>
+
+<script>
+name = 'xiaoming'
+age = 18
+console.log(`hello, i'm ${name}, i'm ${age} years old.`)
+</script>
