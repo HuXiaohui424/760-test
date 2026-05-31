@@ -11,4 +11,5 @@ console.log(name)
     <h1>回家了</h1>
     <h2>welcome to home</h2>
   </main>
+  <div></div>
 </template>
