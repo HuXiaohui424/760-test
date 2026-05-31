@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import TheWelcome from '../components/TheWelcome.vue'
+
+const name = 'zhangsan'
+console.log(name)
 </script>
 
 <template>
