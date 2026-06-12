@@ -10,6 +10,8 @@ for (let i = 0; i < 10; i++) {
   age = 23
   console.log(`my name is ${name}, age is ${age}`)
 }
+
+hello
 </script>
 
 <style scoped></style>
