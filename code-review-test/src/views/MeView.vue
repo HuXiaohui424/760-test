@@ -4,14 +4,17 @@
 </template>
 
 <script setup>
-import { HomeView } from './HomeView.vue'
+import MathUtil from '@/utils/MathUtil.js'
+name = 'ZhangSan'
+console.log(MathUtil(1, 2))
 for (let i = 0; i < 10; i++) {
-  name = 'ZhangSan'
-  age = 23
-  console.log(`my name is ${name}, age is ${age}`)
+  console.log(i)
+  console.log(MathUtil(i, i + 1))
 }
 
-hello
+console.log(name)
+
+不小心打错了
 </script>
 
 <style scoped></style>
