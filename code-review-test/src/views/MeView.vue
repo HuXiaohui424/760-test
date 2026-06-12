@@ -5,10 +5,11 @@
 
 <script setup>
 import { HomeView } from './HomeView.vue'
-name = 'ZhangSan'
-age = 23
-
-console.log(`my name is ${name}, age is ${age}`)
+for (let i = 0; i < 10; i++) {
+  name = 'ZhangSan'
+  age = 23
+  console.log(`my name is ${name}, age is ${age}`)
+}
 </script>
 
 <style scoped></style>
